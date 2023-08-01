@@ -1,0 +1,79 @@
+/* Add a CSS reset to ensure consistent styles across browsers */
+* {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+     }
+     
+     body {
+       font-family: Arial, sans-serif;
+       background-color: #f0f0f0;
+     }
+     
+     .query-input {
+       width: 30%;
+       height: 4rem;
+       font-size: 1.6rem;
+       padding: 1rem;
+       font-weight: bold;
+       color: #333;
+       background-color: #fff;
+       border: 2px solid #ddd;
+       border-radius: 8px;
+       outline: none;
+       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+       transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+       margin-top: 2rem;
+     }
+     
+     /* Style for the placeholder text */
+     .query-input::placeholder {
+       color: #999;
+     }
+     
+     /* Add a subtle box shadow on focus */
+     .query-input:focus {
+       border-color: #77c4d3;
+       box-shadow: 0 0 8px rgba(119, 196, 211, 0.4);
+     }
+     
+     /* Add a hover effect */
+     .query-input:hover {
+       border-color: #aaa;
+     }
+     
+     .query-input:disabled {
+       background-color: #e5e5e5;
+       cursor: not-allowed;
+     }
+
+     .btn{
+           height: 2rem;
+           width: 10rem;
+           margin-left: 2rem;
+           font-weight: bold;
+     }
+     .btn:hover{
+           background-color: #333;
+           color: wheat;
+     }
+
+     .body-div{
+          height : 100rem;
+          width :50rem;
+          border: 1px solid rgba(86, 100, 100, 0.561);
+          padding: 10px;
+        margin-left: 20rem;
+        margin-top: 10px;
+        margin-bottom: 30px;
+     }
+
+     .btns{
+         margin-top: 4rem;
+         margin-left: 1rem;
+     }
+     .btns button{
+           margin: 2rem;
+           width: 300px;
+     }
+     
